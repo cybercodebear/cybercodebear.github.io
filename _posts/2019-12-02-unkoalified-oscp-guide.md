@@ -3,7 +3,7 @@ layout: post
 title: "Unkoalified OSCP Guide"
 tagline: Study Methods
 date: 2019-12-02
-categories: [Certifications]
+categories: [Certification]
 tags: [OSCP, Certification, Tools, Tips]
 image: oscp-koalifications.jpg
 ---
