@@ -60,14 +60,14 @@ headter-tagline: I built this
 ####################################
 
 # Focus Buttons
-#header-focus-button:
-#  title: My LinkedIn
-#  url: https://www.linkedin.com/in/alexjamesdesmond/
-
-# Secondary Buttons
-header-secondary-button:
+header-focus-button:
   title: Blog
   url: https://cybercodebear.github.io/blog.html
+
+# Secondary Buttons
+#header-secondary-button:
+#  title: Blog
+#  url: https://cybercodebear.github.io/blog.html
 
 #
 # This is your email adress, contact from send here all emails from contact section
