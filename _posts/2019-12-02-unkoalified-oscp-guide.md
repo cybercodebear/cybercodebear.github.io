@@ -2,7 +2,7 @@
 layout: post
 title: "Unkoalified OSCP Guide"
 tagline: Study Methods
-date: 2019-12-02
+date: 2019-12-02 19:30
 categories: [Certification]
 tags: [OSCP, Certification, Tools, Tips]
 image: oscp-koalifications.jpg
@@ -32,16 +32,16 @@ At this point I can't even remember how I started learning about VMWare but I'm 
 
 Once it's installed there are a few key tools in Kali that I used all the time:
 
-<ul>
-<li>Cherry Tree - This should be installed by default and I will show you how I took notes later.</li>
-<li>tmux - An easy to use terminal, `sudo apt-get install tmux`. Ham Vocke has a good blog [here](https://www.hamvocke.com/blog/a-quick-and-easy-guide-to-tmux/).</li>
-<li>xclip - Allows the user to `cat` a file and pipe it to `xclip -sel c` which puts the contents onto your clipboard. Install with `sudo apt-get install xclip`.</li> 
-<li>nmapautomator - The enumeration tool I use for HTB and all of the exam machines. The user 21y4d created the tool to use during their OSCP exam, check it out [here](https://github.com/21y4d/nmapAutomator).</li>
-</ul>
+<html>
+  <ul>
+  <li>Cherry Tree - This should be installed by default and I will show you how I took notes later.</li>
+  <li>tmux - An easy to use terminal, `sudo apt-get install tmux`. Ham Vocke has a good blog [here](https://www.hamvocke.com/blog/a-    quick-and-easy-guide-to-tmux/).</li>
+  <li>xclip - Allows the user to `cat` a file and pipe it to `xclip -sel c` which puts the contents onto your clipboard. Install with `sudo apt-get install xclip`.</li> 
+  <li>nmapautomator - The enumeration tool I use for HTB and all of the exam machines. The user 21y4d created the tool to use during their OSCP exam, check it out [here](https://github.com/21y4d/nmapAutomator).</li>
+  </ul>
+</html>
 
 ### What to study
-
-test
 
 These suggestions are somewhat in order.
 
