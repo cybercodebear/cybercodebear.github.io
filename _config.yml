@@ -61,20 +61,20 @@ headter-tagline: I built this
 
 # Focus Buttons
 header-focus-button:
-  title: Download Now
-  url: https://themeforest.net/collections/6069390-sera
+  title: My LinkedIn
+  url: https://www.linkedin.com/in/alexjamesdesmond/
 
 # Secondary Buttons
 header-secondary-button:
-  title: Discover More
-  url: http://themeforest.net/user/gleesik
+  title: Blog
+  url: https://cybercodebear.github.io/blog.html
 
 #
 # This is your email adress, contact from send here all emails from contact section
 # IMPORTANT: you can modify contact form from this static template, but now works contact form works with a free external server
 # To configure this contact form, first please send a fictive email afeter you enter below your email and verify that :)
 #
-email: your_email@example.com
+email: alexjamesdesmond@gmail.com
 
 # Offer Banner Link
 # Default link is a link to all Sera OnePage products
@@ -83,12 +83,10 @@ banner-link: https://themeforest.net/collections/6069390-sera
 ####################################
 ######  Global Social Links   ######
 ####################################
-youtube: '#'
-pinterest: '#'
-facebook: '#'
-twitter: '#'
-google-plus: '#'
-vimeo: '#'
+youtube: 'https://www.youtube.com/channel/UC5JmJiob-C9u9tWhRXD-rag'
+twitter: 'https://twitter.com/cybercodebear'
+reddit: 'https://www.reddit.com/user/alexjamesdesmond/'
+linkedin: 'https://www.linkedin.com/in/alexjamesdesmond/'
 
 #########################
 ######   Widgets   ######
@@ -98,30 +96,29 @@ vimeo: '#'
 # About Blog Author Widget
 #
 about-widget:
-  author-avatar: avatar-02.jpg
-  author-name: John Doe
-  author-tagline: Blog Author
-  author-info: Cum sociis que penatibus et magnis dis parturient montes lorem, nascetur ridiculus mus. Donec quam felis, ultricies.
+  author-avatar: codebear.jpg
+  author-name: Alex Desmond
+  author-tagline: Hobbyist
+  author-info: Interested in infosec both at work and home. 
   author-social-links:
-    youtube: '#'
-    pinterest: '#'
-    facebook: '#'
-    twitter: '#'
-    google-plus: '#'
+    youtube: 'https://www.youtube.com/channel/UC5JmJiob-C9u9tWhRXD-rag'
+    twitter: 'https://twitter.com/cybercodebear'
+    reddit: 'https://www.reddit.com/user/alexjamesdesmond/'
+    linkedin: 'https://www.linkedin.com/in/alexjamesdesmond/'
 
 # Google Map JS api
 # This is my api for this template
-key-api: AIzaSyDbnxVZQannH0GF4gtnnBFPiP9ofm2WqGs
-map-text: Sera Google Map
-map-text-location: Bucharest, Romania
-map-lat: 44.4267674
-map-lng: 26.102538399999958
+#key-api: AIzaSyDbnxVZQannH0GF4gtnnBFPiP9ofm2WqGs
+#map-text: Sera Google Map
+#map-text-location: Bucharest, Romania
+#map-lat: 44.4267674
+#map-lng: 26.102538399999958
 
 # Enter your Mailchimp User ID and Campaign ID
 # @TODO: Add in a link for where to find these
-mailchimp:
-  user-id: REPLACEME
-  list-id: REPLACEME
+#mailchimp:
+#  user-id: REPLACEME
+#  list-id: REPLACEME
 
 ####
 #
