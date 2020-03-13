@@ -60,9 +60,9 @@ headter-tagline: I built this
 ####################################
 
 # Focus Buttons
-header-focus-button:
-  title: My LinkedIn
-  url: https://www.linkedin.com/in/alexjamesdesmond/
+#header-focus-button:
+#  title: My LinkedIn
+#  url: https://www.linkedin.com/in/alexjamesdesmond/
 
 # Secondary Buttons
 header-secondary-button:
@@ -78,7 +78,7 @@ email: alexjamesdesmond@gmail.com
 
 # Offer Banner Link
 # Default link is a link to all Sera OnePage products
-banner-link: https://themeforest.net/collections/6069390-sera
+banner-link: https://cybercodebear.github.io
 
 ####################################
 ######  Global Social Links   ######
@@ -105,20 +105,6 @@ about-widget:
     twitter: 'https://twitter.com/cybercodebear'
     reddit: 'https://www.reddit.com/user/alexjamesdesmond/'
     linkedin: 'https://www.linkedin.com/in/alexjamesdesmond/'
-
-# Google Map JS api
-# This is my api for this template
-#key-api: AIzaSyDbnxVZQannH0GF4gtnnBFPiP9ofm2WqGs
-#map-text: Sera Google Map
-#map-text-location: Bucharest, Romania
-#map-lat: 44.4267674
-#map-lng: 26.102538399999958
-
-# Enter your Mailchimp User ID and Campaign ID
-# @TODO: Add in a link for where to find these
-#mailchimp:
-#  user-id: REPLACEME
-#  list-id: REPLACEME
 
 ####
 #
