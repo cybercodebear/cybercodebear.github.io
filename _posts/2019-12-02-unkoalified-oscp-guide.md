@@ -18,13 +18,11 @@ I'm going to recommend you pay for a few things but they will be cheaper that pa
 
 Hopefully you'll find this blog post short and helpful so let's get into it.
 
-### My Background
-
+**MY BACKGROUND**
 
 When I first started I had no background in pentesting. What I had done was maybe three of the **easy** hack the box machines. 
 
-### Tools you'll need
-
+**TOOLS YOU'LL NEED**
 
 Something to run your virtual machine. I use [VMWare Workstation Pro](https://www.vmware.com/au/products/workstation-pro.html), I paid for this license because I use it for work as well. If you're going to keep doing stuff like this then I think it's a good investment if you just want to try it OSCP out then use [VMWare Player](https://www.vmware.com/au/products/workstation-player/workstation-player-evaluation.html) which will do the same thing but it's free.
 
@@ -33,10 +31,13 @@ The latest stable [Kali Linux 64-Bit](https://www.kali.org/downloads/). If you d
 At this point I can't even remember how I started learning about VMWare but I'm sure you can Try Google!
 
 Once it's installed there are a few key tools in Kali that I used all the time:
-- Cherry Tree - This should be installed by default and I will show you how I took notes later. 
-- tmux - An easy to use terminal, `sudo apt-get install tmux`. Ham Vocke has a good blog [here](https://www.hamvocke.com/blog/a-quick-and-easy-guide-to-tmux/). 
-- xclip - Allows the user to `cat` a file and pipe it to `xclip -sel c` which puts the contents onto your clipboard. Install with `sudo apt-get install xclip`. 
-- nmapautomator - The enumeration tool I use for HTB and all of the exam machines. The user 21y4d created the tool to use during their OSCP exam, check it out [here](https://github.com/21y4d/nmapAutomator). 
+
+<ul>
+<li>Cherry Tree - This should be installed by default and I will show you how I took notes later.</li>
+<li>tmux - An easy to use terminal, `sudo apt-get install tmux`. Ham Vocke has a good blog [here](https://www.hamvocke.com/blog/a-quick-and-easy-guide-to-tmux/).</li>
+<li>xclip - Allows the user to `cat` a file and pipe it to `xclip -sel c` which puts the contents onto your clipboard. Install with `sudo apt-get install xclip`.</li> 
+<li>nmapautomator - The enumeration tool I use for HTB and all of the exam machines. The user 21y4d created the tool to use during their OSCP exam, check it out [here](https://github.com/21y4d/nmapAutomator).</li>
+</ul>
 
 ### What to study
 
