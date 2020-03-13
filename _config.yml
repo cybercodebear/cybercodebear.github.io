@@ -139,8 +139,8 @@ about-description: The first programming course I ever completed my instructor a
 #####################################
 ##########  Core Features  ##########
 #####################################
-core-title: Core Features
-core-description: Currently open to opportunities within cyber security. Below is a highlight reel of myself. 
+core-title: Core Attributes
+core-description: Currently open to opportunities within cyber security. Below is a highlight reel of myself.
 
 #
 # Core Features Left
@@ -153,9 +153,9 @@ core-features-left:
   icon: pe-7s-user
 
 # Feature
-- name: Forensic Analyst
-  description: Can apply digital forensic techniques across various platforms including Windows, Linux and mobile devices; both host and network. 
-  icon: pe-7s-monitor
+- name: Time Management
+  description: Prioritisation of tasks to ensure deadlines are met.
+  icon: pe-7s-wristwatch
 
 # Feature
 - name: Social
@@ -178,9 +178,9 @@ core-features-right:
   icon: pe-7s-cup
 
 # Feature
-- name: Time Management
-  description: Prioritisation of tasks to ensure deadlines are met.
-  icon: pe-7s-wristwatch
+- name: Forensic Analyst
+  description: Can apply digital forensic techniques across various platforms including Windows, Linux and mobile devices; both host and network. 
+  icon: pe-7s-monitor
 
 # Feature
 - name: Empathy
