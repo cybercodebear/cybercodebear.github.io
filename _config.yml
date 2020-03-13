@@ -192,170 +192,23 @@ core-features-right:
   description: Can function in the technical or the governance space when responding to cyber incidents.
   icon: pe-7s-bandaid
 
-
-#####################################
-########### Testimonials ############
-#####################################
-testimonials-title: Testimonials
-testimonials-description: Aenean at tincidunt sem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat vitae volutpat sed, suscipit et nisi.
-
-#
-# Testimonials
-#
-testimonials:
-
-# Client
-- name: Johnatan Doe
-  url: http://themeforest.net
-  url-text: ThemeForest.net
-  avatar: avatar-01.jpg
-  cite: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer varius adipiscing lectus, eu ornare lectus semper in. Aenean at tincidunt sem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat vitae volutpat sed.
-  logo-img: themeforest.png
-
-# Client
-- name: Adam Smith
-  url: http://codecanyon.net
-  url-text: CodeCanyon.net
-  avatar: avatar-02.jpg
-  cite: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer varius adipiscing lectus, eu ornare lectus semper in. Aenean at tincidunt sem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat vitae volutpat sed.
-  logo-img: codecanyon.png
-
-# Client
-- name: Irene Warner
-  url: http://videohive.net
-  url-text: VideoHive.net
-  avatar: avatar-03.jpg
-  cite: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer varius adipiscing lectus, eu ornare lectus semper in. Aenean at tincidunt sem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat vitae volutpat sed.
-  logo-img: videohive.png
-
-# Client
-- name: Richard Ryan
-  url: http://audiojungle.net
-  url-text: AudioJungle.net
-  avatar: avatar-04.jpg
-  cite: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer varius adipiscing lectus, eu ornare lectus semper in. Aenean at tincidunt sem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat vitae volutpat sed.
-  logo-img: audiojungle.png
-
-
 #####################################
 ############# Our Blog ##############
 #####################################
-blog-title: Our Blog
-blog-description: Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat vitae volutpat sed, suscipit et nisi. Nulla a tellus at turpis gravida congue non sed nisl. Pellentesque scelerisque eu neque et tincidunt.
-
-
-#####################################
-############### Team ################
-#####################################
-team-title: Meet Our Team
-team-description: Nulla a tellus at turpis gravida congue non interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat vitae volutpat sed, suscipit et nisi. Nulla a tellus at turpis gravida congue non sed nisl. Pellentesque scelerisque eu neque et tincidunt.
-
-#
-# Team Members
-#
-team:
-
-# Team Member
-- name: Jack Skilton
-  tagline: Graphic Designer
-  avatar: avatar-01.jpg
-
-  # Social Links
-  youtube: '#'
-  pinterest: '#'
-  facebook: '#'
-  twitter: '#'
-  google-plus: '#'
-  vimeo: '#'
-
-# Team Member
-- name: James Young
-  tagline: Developer
-  avatar: avatar-02.jpg
-
-  # Social Links
-  youtube: '#'
-  pinterest: '#'
-  facebook: '#'
-  twitter: '#'
-  google-plus: '#'
-  vimeo: '#'
-
-# Team Member
-- name: Johnatan Doe
-  tagline: Hacker
-  avatar: avatar-04.jpg
-
-  # Social Links
-  youtube: '#'
-  pinterest: '#'
-  facebook: '#'
-  twitter: '#'
-  google-plus: '#'
-  vimeo: '#'
-
-# Team Member
-- name: Ecaterina Doe
-  tagline: Support Expert
-  avatar: avatar-03.jpg
-
-  # Social Links
-  youtube: '#'
-  pinterest: '#'
-  facebook: '#'
-  twitter: '#'
-  google-plus: '#'
-  vimeo: '#'
-
-
-#####################################
-########## Pricing Tables ###########
-#####################################
-pricing-title: Pricing Tables
-pricing-description: Nulla a tellus at turpis gravida congue non interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat vitae volutpat sed, suscipit et nisi. Nulla a tellus at turpis gravida congue non sed nisl. Pellentesque scelerisque eu neque et tincidunt.
-
-#
-# Plan Personal
-#
-plan-personal-price: $99
-plan-personal-offer-1-title: 01 PSD Pack
-plan-personal-offer-1-info: Mauris gravida fringilla est. Proin sodales sed erat et cursus. Mauris quis posuere enim.
-plan-personal-offer-2-title: 100 Support Tickets
-plan-personal-offer-2-info: Mauris gravida fringilla est. Proin sodales sed erat et cursus. Mauris quis posuere enim.
-plan-personal-url: '#'
-
-#
-# Plan Business
-#
-plan-business-price: $499
-plan-business-offer-1-title: 05 PSD Pack
-plan-business-offer-1-info: Mauris gravida fringilla est. Proin sodales sed erat et cursus. Mauris quis posuere enim.
-plan-business-offer-2-title: 1000 Support Tickets
-plan-business-offer-2-info: Mauris gravida fringilla est. Proin sodales sed erat et cursus. Mauris quis posuere enim.
-plan-business-url: '#'
-
-#
-# Plan Ultimate
-#
-plan-ultimate-price: $999
-plan-ultimate-offer-1-title: 10 PSD Pack
-plan-ultimate-offer-1-info: Mauris gravida fringilla est. Proin sodales sed erat et cursus. Mauris quis posuere enim.
-plan-ultimate-offer-2-title: Support Unlimited
-plan-ultimate-offer-2-info: Mauris gravida fringilla est. Proin sodales sed erat et cursus. Mauris quis posuere enim.
-plan-ultimate-url: '#'
-
+blog-title: Blog
+blog-description: Check out some of the recent posts that I've put together. Want to know something then send me a suggestion.
 
 #####################################
 ############   Contact   ############
 #####################################
 contact-title: Contact Us
-contact-description: Nulla a tellus at turpis gravida congue non interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat.
+contact-description: Have a suggestion for a topic? Have an opportunity that you want to share? Just want to ask a question? This is the place!
 
 
 #####################################
 #############   Footer   ############
 #####################################
-footer-description: Nulla a tellus at turpis gravida congue non interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat.
-footer-copyright-text: Gleesik&trade;
-footer-copyright-url: http://gleesik.ro/
-footer-copyright-year: 2016
+footer-description: You've managed to reach to bottom of my page. Hope it was bearable.
+footer-copyright-text: cybercodebear constantly adding to a personal gantt chart.
+#footer-copyright-url: http://gleesik.ro/
+#footer-copyright-year: 2016
