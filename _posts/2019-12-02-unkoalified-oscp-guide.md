@@ -31,14 +31,10 @@ The latest stable [Kali Linux 64-Bit](https://www.kali.org/downloads/). If you d
 At this point I can't even remember how I started learning about VMWare but I'm sure you can Try Google!
 
 Once it's installed there are a few key tools in Kali that I used all the time:
-
-*Cherry Tree* - This should be installed by default and I will show you how I took notes later.
-
-*tmux* - An easy to use terminal, `sudo apt-get install tmux`. Ham Vocke has a good blog [here](https://www.hamvocke.com/blog/a-    quick-and-easy-guide-to-tmux/).
-
-*xclip* - Allows the user to `cat` a file and pipe it to `xclip -sel c` which puts the contents onto your clipboard. Install with `sudo apt-get install xclip`.
-
-*nmapautomator* - The enumeration tool I use for HTB and all of the exam machines. The user 21y4d created the tool to use during their OSCP exam, check it out [here](https://github.com/21y4d/nmapAutomator).
+* Cherry Tree - This should be installed by default and I will show you how I took notes later.
+* tmux - An easy to use terminal, `sudo apt-get install tmux`. Ham Vocke has a good blog [here](https://www.hamvocke.com/blog/a-    quick-and-easy-guide-to-tmux/).
+* xclip - Allows the user to `cat` a file and pipe it to `xclip -sel c` which puts the contents onto your clipboard. Install with `sudo apt-get install xclip`.
+* nmapautomator - The enumeration tool I use for HTB and all of the exam machines. The user 21y4d created the tool to use during their OSCP exam, check it out [here](https://github.com/21y4d/nmapAutomator).
 
 ### What to study
 
