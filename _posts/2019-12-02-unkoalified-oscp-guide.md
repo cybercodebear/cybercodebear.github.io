@@ -32,14 +32,13 @@ At this point I can't even remember how I started learning about VMWare but I'm 
 
 Once it's installed there are a few key tools in Kali that I used all the time:
 
-<html>
-  <ul>
-  <li>Cherry Tree - This should be installed by default and I will show you how I took notes later.</li>
-  <li>tmux - An easy to use terminal, `sudo apt-get install tmux`. Ham Vocke has a good blog [here](https://www.hamvocke.com/blog/a-    quick-and-easy-guide-to-tmux/).</li>
-  <li>xclip - Allows the user to `cat` a file and pipe it to `xclip -sel c` which puts the contents onto your clipboard. Install with `sudo apt-get install xclip`.</li> 
-  <li>nmapautomator - The enumeration tool I use for HTB and all of the exam machines. The user 21y4d created the tool to use during their OSCP exam, check it out [here](https://github.com/21y4d/nmapAutomator).</li>
-  </ul>
-</html>
+*Cherry Tree* - This should be installed by default and I will show you how I took notes later.
+
+*tmux* - An easy to use terminal, `sudo apt-get install tmux`. Ham Vocke has a good blog [here](https://www.hamvocke.com/blog/a-    quick-and-easy-guide-to-tmux/).
+
+*xclip* - Allows the user to `cat` a file and pipe it to `xclip -sel c` which puts the contents onto your clipboard. Install with `sudo apt-get install xclip`.
+
+*nmapautomator* - The enumeration tool I use for HTB and all of the exam machines. The user 21y4d created the tool to use during their OSCP exam, check it out [here](https://github.com/21y4d/nmapAutomator).
 
 ### What to study
 
@@ -48,9 +47,12 @@ These suggestions are somewhat in order.
 I had no idea what to do in Linux and the tricks in the command line. Over The Wire's [Bandit](https://overthewire.org/wargames/bandit/) is awesome and it's free!
 
 [Hack The Box](https://www.hackthebox.eu/)... goes without saying. **Buy a VIP subscription!** This will allow you to do the retired boxes. Then do the following:
-1. Complete the boxes compiled by tjnull which can be found [here](https://docs.google.com/spreadsheets/d/1dwSMIAPIam0PuRBkCiDI88pU3yzrqqHkDtBngUHNCw8/edit#gid=1839402159). If you want to read the blog post look [here](https://www.netsecfocus.com/oscp/2019/03/29/The_Journey_to_Try_Harder-_TJNulls_Preparation_Guide_for_PWK_OSCP.html#capture-the-flag-competitions-ctfscyber-competitions). 
-2. Try the boxes in order (kind of a difficulty rating) when you get stuck watch how [IPPSEC](https://www.youtube.com/channel/UCa6eh7gCkpPo5XXUDfygQQA) does it and then continue on by yourself. 
-3. On each machine take notes in Cherry Tree. I used a template like the image below and then stored extra information about the machine like nmap scans or ssh keys in sub nodes. This was a suggestion from my friend [Apr4h](https://github.com/Apr4h), make sure to check out their work. 
+
+Complete the boxes compiled by tjnull which can be found [here](https://docs.google.com/spreadsheets/d/1dwSMIAPIam0PuRBkCiDI88pU3yzrqqHkDtBngUHNCw8/edit#gid=1839402159). If you want to read the blog post look [here](https://www.netsecfocus.com/oscp/2019/03/29/The_Journey_to_Try_Harder-_TJNulls_Preparation_Guide_for_PWK_OSCP.html#capture-the-flag-competitions-ctfscyber-competitions). 
+
+Try the boxes in order (kind of a difficulty rating) when you get stuck watch how [IPPSEC](https://www.youtube.com/channel/UCa6eh7gCkpPo5XXUDfygQQA) does it and then continue on by yourself. 
+
+On each machine take notes in Cherry Tree. I used a template like the image below and then stored extra information about the machine like nmap scans or ssh keys in sub nodes. This was a suggestion from my friend [Apr4h](https://github.com/Apr4h), make sure to check out their work. 
 
 ![process image](https://cybercodebear.github.io/images/blog/oscp-process.png)
 
@@ -67,25 +69,37 @@ Your own documentation will be invaluable.
 ### Exam
 
 Tips:
-* Eat good food.
-* Take breaks.
-* Have a good nights sleep.
-* Have a doggo keep you company.
+
+Eat good food.
+
+Take breaks.
+
+Have a good nights sleep.
+
+Have a doggo keep you company.
+
 
 ![moo burrito image](https://cybercodebear.github.io/images/blog/oscp-moo_burrito2.png)
 
 I had two attempts:
-1. I spent way too long on the buffer overflow machine but in the end I think the binary on the test machine was different from the victim machine.
-2. I pretty much followed the advice I'm giving here and got the buffer overflow in under 2 hours. Then I got both 20pt machines, and the 10pt machine. All of these I got root on in less then 12 hours and then had a good sleep and spent the rest of the time trying to get the 25pt machine.
+
+I spent way too long on the buffer overflow machine but in the end I think the binary on the test machine was different from the victim machine.
+
+I pretty much followed the advice I'm giving here and got the buffer overflow in under 2 hours. Then I got both 20pt machines, and the 10pt machine. All of these I got root on in less then 12 hours and then had a good sleep and spent the rest of the time trying to get the 25pt machine.
 
 Get your exam ticket and book a good time for you. I started around 7am both times so I was fresh from a good nights sleep. 
 
 There are 5 exam machines:
-1. 25pts = buffer overflow (follow the process, pretty easy)
-2. 25pts = hard machine (multiple vulnerbilities strung together)
-3. 20pts = med machine (pretty easily found open source)
-4. 20pts = med machine (pretty easily found open source)
-5. 10pts = easy machine (should be obvious single step)
+
+25pts = buffer overflow (follow the process, pretty easy)
+
+25pts = hard machine (multiple vulnerbilities strung together)
+
+20pts = med machine (pretty easily found open source)
+
+20pts = med machine (pretty easily found open source)
+
+10pts = easy machine (should be obvious single step)
 
 ### Report 
 
@@ -94,9 +108,12 @@ whoisflynn passed their exam with an updated template. I found it easy to use, c
 ### Conclusion 
 
 So what's the final cost?
-* HTB VIP membership
-* Minimum OSCP lab time + exam ticket
-* Time. 
+
+HTB VIP membership
+
+Minimum OSCP lab time + exam ticket
+
+Time. 
 
 I achieved my goal of completing what I've just listed above before doing my exam and I passed (the second time). 
 
