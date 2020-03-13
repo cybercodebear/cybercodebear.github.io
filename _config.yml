@@ -132,109 +132,15 @@ about-widget:
 #####################################
 #############   About   #############
 #####################################
-about-title: Welcome to Sera
-about-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean at tincidunt sem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat vitae volutpat sed, suscipit et nisi. Nulla a tellus at turpis gravida congue non sed nisl. Pellentesque scelerisque eu neque et tincidunt.
-
-
-#####################################
-#############  Features  ############
-#####################################
-features-title: Features
-features-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean at tincidunt sem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante.
-
-#
-# Features
-#
-features:
-
-# Feature
-- title: Clean & Unique Design
-  description: Maecenas sed laoreet urna. Praesent eget tristique tortor. Suspendisse consequat sed turpis in mattis.
-  icon: pe-7s-vector
-
-# Feature
-- title: Professional Support
-  description: Maecenas sed laoreet urna. Praesent eget tristique tortor. Suspendisse consequat sed turpis in mattis.
-  icon: pe-7s-help2
-
-# Feature
-- title: Pixel Perfect
-  description: Maecenas sed laoreet urna. Praesent eget tristique tortor. Suspendisse consequat sed turpis in mattis.
-  icon: pe-7s-airplay
-
-
-#####################################
-############  Portfolio  ############
-#####################################
-portfolio-title: Portfolio
-portfolio-description: Maecenas tempus nec mi et placerat. Duis at odio vitae ex gravida volutpat. Nulla finibus aliquet diam ut eleifend. Mauris consequat interdum quam. Mauris dui sapien, efficitur et cursus id, molestie fringilla turpis.
-
-#
-# Portfolio Grid
-#
-portfolio-categories: [Websites, Logo, Graphic Design, Development, Video, Photography]
-portfolio:
-
-# Portfolio Item
-- title: S<span class="thin">era</span> Style
-  categories: [Websites, Graphic Design]
-  image: img-01.jpg
-  url: '#'
-
-# Portfolio Item
-- title: S<span class="thin">era</span> Style
-  categories: [Graphic Design, Logo, Websites]
-  image: img-02.jpg
-  url: '#'
-
-# Portfolio Item
-- title: S<span class="thin">era</span> Style
-  categories: [Graphic Design, Logo, Photography]
-  image: img-03.jpg
-  url: '#'
-
-# Portfolio Item
-- title: S<span class="thin">era</span> Style
-  categories: [Websites, Video, Photography]
-  image: img-04.jpg
-  url: '#'
-
-# Portfolio Item
-- title: S<span class="thin">era</span> Style
-  categories: [Development, Logo]
-  image: img-05.jpg
-  url: '#'
-
-# Portfolio Item
-- title: S<span class="thin">era</span> Style
-  categories: [Development, Video]
-  image: img-06.jpg
-  url: '#'
-
-# Portfolio Item
-- title: S<span class="thin">era</span> Style
-  categories: [Websites, Graphic Design]
-  image: img-07.jpg
-  url: '#'
-
-# Portfolio Item
-- title: S<span class="thin">era</span> Style
-  categories: [Websites , Video]
-  image: img-08.jpg
-  url: '#'
-
-# Portfolio Item
-- title: S<span class="thin">era</span> Style
-  categories: [Photography, Logo]
-  image: img-09.jpg
-  url: '#'
+about-title: Welcome to the den
+about-description: The first programming course I ever completed my instructor always told me that I should always ask the bear on her desk my question and if I still had the question then I could ask her... I don't think I ever asked her a question that semester. 
 
 
 #####################################
 ##########  Core Features  ##########
 #####################################
 core-title: Core Features
-core-description: Duis at odio vitae ex gravida volutpat. Nulla finibus aliquet diam ut eleifend. Mauris consequat interdum quam. Mauris dui sapien, efficitur et cursus id, molestie fringilla turpis aliquet diam ut eleifend.
+core-description: Currently open to opportunities within cyber security. Below is a highlight reel of myself. 
 
 #
 # Core Features Left
@@ -242,24 +148,24 @@ core-description: Duis at odio vitae ex gravida volutpat. Nulla finibus aliquet 
 core-features-left:
 
 # Feature
-- name: Creative
-  description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
-  icon: pe-7s-light
+- name: Values Driven
+  description: Professionalism, integrity, innovation, teamwork, excellence, dedication are my top values.
+  icon: pe-7s-user
 
 # Feature
-- name: Minimalism
-  description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
-  icon: pe-7s-drop
+- name: Forensic Analyst
+  description: Can apply digital forensic techniques across various platforms including Windows, Linux and mobile devices; both host and network. 
+  icon: pe-7s-monitor
 
 # Feature
-- name: Clean Coding
-  description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
+- name: Social
+  description: A good work culture is important. This is built through effectively building work relationships with my team. 
   icon: pe-7s-coffee
 
 # Feature
-- name: Friendly
-  description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
-  icon: pe-7s-smile
+- name: Reporting
+  description: Experienced writing reports conveying strategic risk based on technical vulnerabilities and exploits.
+  icon: pe-7s-file
 
 #
 # Core Features Right
@@ -267,24 +173,24 @@ core-features-left:
 core-features-right:
 
 # Feature
-- name: Branding
-  description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
-  icon: pe-7s-wine
+- name: Results Oriented
+  description: Clearly defines outcomes and strives to deliver outstanding results.
+  icon: pe-7s-cup
 
 # Feature
-- name: Web Design
-  description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
-  icon: pe-7s-monitor
+- name: Time Management
+  description: Prioritisation of tasks to ensure deadlines are met.
+  icon: pe-7s-wristwatch
 
 # Feature
-- name: Graphic Design
-  description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
-  icon: pe-7s-crop
+- name: Empathy
+  description: Understanding the organisations and customer needs to work towards the ideal solution.
+  icon: pe-7s-users
 
 # Feature
-- name: Photography
-  description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
-  icon: pe-7s-camera
+- name: Incident Response
+  description: Can function in the technical or the governance space when responding to cyber incidents.
+  icon: pe-7s-bandaid
 
 
 #####################################
