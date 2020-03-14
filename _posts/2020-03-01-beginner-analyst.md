@@ -8,69 +8,70 @@ tags: [Playbook, forensics, incident response]
 image: rick-morty.jpg
 ---
 
+<a name="top of page"></a>
 >*"Jesus, Morty. You can't just add a cyber word to any word and hope it means something." - Rick Sanchez*
 
 ## What is it?
-
+<p>&nbsp;</p>
 Starting out can often be the hardest part of anything you want to try. I know when I first started in this field that I had no idea where to even start looking. The advice that I generally got was just start reading and doing CTF's. In the end this did help but it wasn't until I had a mentor help me along the way that I got the hang of doing them. I hope this guide will ease you into the CTF's or provide an idea of how to approach certain problems. 
 
 As a note some of my training revolves around [SANS courses](https://www.sans.org/), which I highly recommend. The courses that are relevent to some of the content in here is FOR 500, FOR 508, and FOR 572. These three courses are advertised in their incident analyst pathway. 
 
 ## What's next?
-
+<p>&nbsp;</p>
 In 2020 I aim to record myself doing a forensic themed CTF where you will be able to see and hear my thought process and put it up on YouTube. 
 
 Of course there is a section of additional content that I would like to add. I'm happy to take suggestions as well. 
 
 ## How to use
-
+<p>&nbsp;</p>
 Everything will be kept on a single page so you'll be able to CTRL+f.
 
 Where it's applicable I will delineate whether I'm using the [***LINUX-SIFT***](https://digital-forensics.sans.org/community/downloads) or the ***WIN-SIFT***. Note that the ***WIN-SIFT*** is only available if you're doing one of the SANS courses that provides it otherwise download a [Windows VM](https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/) and install the tool yourself. 
 
 <a name="b2t"></a>
 ## Table of contents
-
-- [ Things to do ](#things-to-do) 
-- [ Change log ](#change-log)
-- [ General IOCs ](#general-iocs)
-  - [Misnamed processes](#misnamed-processes)
-  - [Remote processes in memory](#remote-processes-in-memory)
-  - [PowerShell download cradle](#ps-download-cradle)
-  - [Domain controller ntdsutil](#dc-ntdsutil)
-  - [Proxy logs](#proxy-logs)
-  - [Folder/file creation](#folderfile-creation)
-- [General information](#gen-win-info)
-  - [Windows event logs](#win-event-logs)
-  - [Basics of tracking WMI activity](#track-wmi-activity)
-  - [The epoch times](#the-epoch-times)
-  - [Windows known folder GUIDs](#win-known-guids)
-  - [Windows well known SIDs](#win-known-sids)
-  - [HTTP Version History](#http-ver-history)
-  - [HTTP response codes](#http-response-codes)
-  - [Magic bytes for common files](#magic-bytes-common-files)
-  - [Service start type](#service-start-types)
-  - [Interesting domain information](#interesting-domain-info)
-  - [Browser behaviour](#browser-behaviour)
-- [Capturing tools](#live-cap-tools)
-  - [tcpdump](#live-tcpdump)
-  - [DumpIt](#dumpit)
-  - [Encrypted Disk Detector](#edd)
-  - [CyLR](#cylr)
-  - [FTK Imager](#ftkimager)
-- [Analysis tips & tools](#analysis-tools)
-  - [Mounting shared folders in Linux](#mount-share-folders-linux)
-  - [The Sleuth Kit](#sleuth-kit)
-  - [Volatility](#volatility)
-    - [Volatility on Linux](#volatilityonlinux)
-  - [Kernel OST viewer](#kernel-ost-viewer)
-  - [Wireshark](#wireshark)
-  - [NetworkMiner](#networkminer)
-  - [tshark](#tshark)
-  - [Cyber Chef](#cyber-chef)
-  - [exiftool](#exiftool)
-  - [xclip](#xclip)
-  - [Event log explorer](#event-log-explorer)
+<p>&nbsp;</p>
+1. [ Things to do ](#things-to-do) 
+2. [ Change log ](#change-log)
+3. [ General IOCs ](#general-iocs)
+3-a. [Misnamed processes](#misnamed-processes)
+3-b. [Remote processes in memory](#remote-processes-in-memory)
+3-c. [PowerShell download cradle](#ps-download-cradle)
+3-d. [Domain controller ntdsutil](#dc-ntdsutil)
+3-e. [Proxy logs](#proxy-logs)
+3-f. [Folder/file creation](#folderfile-creation)
+4. [General information](#gen-win-info)
+4-a. [Windows event logs](#win-event-logs)
+4-b. [Basics of tracking WMI activity](#track-wmi-activity)
+4-c. [The epoch times](#the-epoch-times)
+4-d. [Windows known folder GUIDs](#win-known-guids)
+4-e. [Windows well known SIDs](#win-known-sids)
+4-f. [HTTP Version History](#http-ver-history)
+4-g. [HTTP response codes](#http-response-codes)
+4-h. [Magic bytes for common files](#magic-bytes-common-files)
+4-i. [Service start type](#service-start-types)
+4-j. [Interesting domain information](#interesting-domain-info)
+4-k. [Browser behaviour](#browser-behaviour)
+5. [Capturing tools](#live-cap-tools)
+5-a. [tcpdump](#live-tcpdump)
+5-b. [DumpIt](#dumpit)
+5-c. [Encrypted Disk Detector](#edd)
+5-d. [CyLR](#cylr)
+5-e. [FTK Imager](#ftkimager)
+6. [Analysis tips & tools](#analysis-tools)
+6-a. [Mounting shared folders in Linux](#mount-share-folders-linux)
+6-b. [The Sleuth Kit](#sleuth-kit)
+6-c. [Volatility](#volatility)
+6-c-i. [Volatility on Linux](#volatilityonlinux)
+6-d. [Kernel OST viewer](#kernel-ost-viewer)
+6-e. [Wireshark](#wireshark)
+6-f. [NetworkMiner](#networkminer)
+6-g. [tshark](#tshark)
+6-h. [Cyber Chef](#cyber-chef)
+6-i. [exiftool](#exiftool)
+6-j. [xclip](#xclip)
+6-k. [Event log explorer](#event-log-explorer)
 
 <a name="things-to-do"></a>
 ## Things to do
