@@ -17,15 +17,15 @@ An employee who recently has loaned out a laptop has noticed in the recent docum
 ![Image of content seen](https://cybercodebear.github.io/images/blog/inaprop_content/content_proof.jpg)
 
 The system admin has also collected some data for you before reimaging the laptop. Hopefully this is enough for your investigation.... oh and the system admin also told you that everyone uses the same IEUser account and they just track who the laptop is loaned out to in a text file.
-
+<p>&nbsp;</p> 
 ## Task 
 <p>&nbsp;</p>
 For a small task like this you will most likely have a good idea of what you'll need to find but it is good practice to put pen to paper and write out a small plan of the evidence that you will need and roughly what tools you will use.
-
+<p>&nbsp;</p>
 ## Attempt the task
 <p>&nbsp;</p>
 Below the task files section is the solution along with my own thought process for this task. If you have some ability then plan out the task, download the content on this page, and attempt to complete this before looking at what I have done. 
-
+<p>&nbsp;</p>
 ## Task files
 <p>&nbsp;</p>
 Download the files by clicking on the icon below;
@@ -37,7 +37,7 @@ Download the files by clicking on the icon below;
 I have now created a video that will step through how to, create the VM's to make this task; acquire the data that was downloaded in the zip; do the task.
 <p>&nbsp;</p>
 [![Alt text](http://i3.ytimg.com/vi/0oLy34oPzw0/maxresdefault.jpg)](https://youtu.be/0oLy34oPzw0)
-
+<p>&nbsp;</p>
 ### Planning
 <p>&nbsp;</p>
 When I initially got this task the first thing I did was fire up the laptop and had a look at what the employee who reported the issue could see. This was to confirm that they were telling the truth and that it would be worth while continuing further. I was not worried about overriding evidence because I didn't plan on opening any files that would overwrite this list.
