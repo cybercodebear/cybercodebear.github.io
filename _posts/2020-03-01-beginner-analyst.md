@@ -32,9 +32,12 @@ Where it's applicable I will delineate whether I'm using the [***LINUX-SIFT***](
 <a name="b2t"></a>
 ## Table of contents
 <p>&nbsp;</p>
+
 - [ Things to do ](#things-to-do) 
 - [ Change log ](#change-log)
-&nbsp; 
+
+<p>&nbsp;</p>
+
 #### [ **GENERAL IOC** ](#general-iocs)
 - [Misnamed processes](#misnamed-processes)
 - [Remote processes in memory](#remote-processes-in-memory)
