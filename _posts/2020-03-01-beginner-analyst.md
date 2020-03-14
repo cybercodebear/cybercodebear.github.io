@@ -35,13 +35,9 @@ Where it's applicable I will delineate whether I'm using the [***LINUX-SIFT***](
 - [ Things to do ](#things-to-do) 
 - [ Change log ](#change-log)
 - [ General IOCs ](#general-iocs)
-
-&nbsp;  - [Misnamed processes](#misnamed-processes)
-
-&nbsp;  - [Remote processes in memory](#remote-processes-in-memory)
-
-&nbsp;  - [PowerShell download cradle](#ps-download-cradle)
-
+<p>&nbsp;- [Misnamed processes](#misnamed-processes)</p>
+<p>&nbsp;- [Remote processes in memory](#remote-processes-in-memory)</p>
+<p>&nbsp;- [PowerShell download cradle](#ps-download-cradle)</p>
 - [Domain controller ntdsutil](#dc-ntdsutil)
   - [Proxy logs](#proxy-logs)
   - [Folder/file creation](#folderfile-creation)
