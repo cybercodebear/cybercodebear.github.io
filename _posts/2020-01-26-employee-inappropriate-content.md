@@ -32,7 +32,7 @@ Below the task files section is the solution along with my own thought process f
 
 Download the files by clicking on the icon below;
 
-[![button](https://cybercodebear.github.io/images/blog/inaprop_content/vm-icon-png-icon.jpg)](https://cybercodebear.github.io/forensic_tasks/downloads/Prove-an-employee-viewed-inappropriate-content.7z)
+[![button](https://cybercodebear.github.io/images/blog/inaprop_content/vm-icon-png-icon.jpg)](https://cybercodebear.github.io/images/blog/downloads/Prove-an-employee-viewed-inappropriate-content.7z)
 
 ## Solution 
 
