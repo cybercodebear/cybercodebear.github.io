@@ -53,7 +53,7 @@ Complete the boxes compiled by tjnull which can be found [here](https://docs.goo
 Try the boxes in order (kind of a difficulty rating) when you get stuck watch how [IPPSEC](https://www.youtube.com/channel/UCa6eh7gCkpPo5XXUDfygQQA) does it and then continue on by yourself. 
 
 On each machine take notes in Cherry Tree. I used a template like the image below and then stored extra information about the machine like nmap scans or ssh keys in sub nodes. This was a suggestion from my friend [Apr4h](https://github.com/Apr4h), make sure to check out their work. 
-
+<p>&nbsp;</p>
 ![process image](https://cybercodebear.github.io/images/blog/oscp-process.png)
 
 The buffer overflow box is just a skill you learn. justinsteven wrote a great tutorial called [dostackbufferoverflowgood](https://github.com/justinsteven/dostackbufferoverflowgood). Make sure you do them and don't just read the PDF. You'll need a Windows VM networked in VMWare to exploit some of the examples. 
@@ -66,25 +66,23 @@ Save the exploits you use in HTB and document how you used them so you can repli
 
 Your own documentation will be invaluable. 
 <p>&nbsp;</p>
-### Exam
+## Exam tips
 <p>&nbsp;</p>
-Tips:
-<ul>
-<li>Eat good food.</li>
-<li>Take breaks.</li>
-<li>Have a good nights sleep.</li>
-<li>Have a doggo keep you company.</li>
-</ul>
+Eat good food.
 
+Take breaks.
+
+Have a good nights sleep before and during the exam.
+
+Have a doggo keep you company.
+<p>&nbsp;</p>
 ![moo burrito image](https://cybercodebear.github.io/images/blog/oscp-moo_burrito2.png)
 
-I had two attempts:
+During my first attempt I spent way too long on the buffer overflow machine but in the end I think the binary on the test machine was different from the victim machine.
 
-I spent way too long on the buffer overflow machine but in the end I think the binary on the test machine was different from the victim machine.
+To prepare for my second attempt I pretty much followed the advice I'm giving here and got the buffer overflow in under 2 hours. Then I got both 20pt machines, and the 10pt machine. All of these I got root on in less then 12 hours and then had a good sleep and spent the rest of the time trying to get the 25pt machine.
 
-I pretty much followed the advice I'm giving here and got the buffer overflow in under 2 hours. Then I got both 20pt machines, and the 10pt machine. All of these I got root on in less then 12 hours and then had a good sleep and spent the rest of the time trying to get the 25pt machine.
-
-Get your exam ticket and book a good time for you. I started around 7am both times so I was fresh from a good nights sleep. 
+Getting your exam ticket and booking a good time for yourself is key. I started around 7am both times so I was fresh from a good nights sleep. 
 
 There are 5 exam machines:
 
@@ -98,11 +96,11 @@ There are 5 exam machines:
 
 10pts = easy machine (should be obvious single step)
 <p>&nbsp;</p>
-### Report 
+## Report 
 <p>&nbsp;</p>
 whoisflynn passed their exam with an updated template. I found it easy to use, check it out on [whoisflynn's github page](https://github.com/whoisflynn/OSCP-Exam-Report-Template)
 <p>&nbsp;</p>
-### Conclusion 
+## Conclusion 
 <p>&nbsp;</p>
 So what's the final cost?
 
