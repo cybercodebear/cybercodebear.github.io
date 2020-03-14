@@ -17,14 +17,13 @@ Up front I don't think you need to pay for any more than the minimum lab time to
 I'm going to recommend you pay for a few things but they will be cheaper that paying for even the shortest lab time. As a disclaimer I receive no payment from any of the recommendations it's just what I personnally use. 
 
 Hopefully you'll find this blog post short and helpful so let's get into it.
-
+<p>&nbsp;</p>
 ## My Background
 <p>&nbsp;</p>
 When I first started I had no background in pentesting. What I had done was maybe three of the **easy** hack the box machines. 
-
+<p>&nbsp;</p>
 ## Tools you'll need
-
-
+<p>&nbsp;</p>
 Something to run your virtual machine. I use [VMWare Workstation Pro](https://www.vmware.com/au/products/workstation-pro.html), I paid for this license because I use it for work as well. If you're going to keep doing stuff like this then I think it's a good investment if you just want to try it OSCP out then use [VMWare Player](https://www.vmware.com/au/products/workstation-player/workstation-player-evaluation.html) which will do the same thing but it's free.
 
 The latest stable [Kali Linux 64-Bit](https://www.kali.org/downloads/). If you did purchase the PWK course it will recommend to use theirs but it is riddled with problems and you only need it for one course exercise. 
@@ -40,10 +39,9 @@ Once it's installed there are a few key tools in Kali that I used all the time:
 **xclip** - Allows the user to `cat` a file and pipe it to `xclip -sel c` which puts the contents onto your clipboard. Install with `sudo apt-get install xclip`.
 
 **nmapautomator** - The enumeration tool I use for HTB and all of the exam machines. The user 21y4d created the tool to use during their OSCP exam, check it out [here](https://github.com/21y4d/nmapAutomator).
-
+<p>&nbsp;</p>
 ## What to study
-
-
+<p>&nbsp;</p>
 These suggestions are somewhat in order.
 
 I had no idea what to do in Linux and the tricks in the command line. Over The Wire's [Bandit](https://overthewire.org/wargames/bandit/) is awesome and it's free!
@@ -59,27 +57,24 @@ On each machine take notes in Cherry Tree. I used a template like the image belo
 ![process image](https://cybercodebear.github.io/images/blog/oscp-process.png)
 
 The buffer overflow box is just a skill you learn. justinsteven wrote a great tutorial called [dostackbufferoverflowgood](https://github.com/justinsteven/dostackbufferoverflowgood). Make sure you do them and don't just read the PDF. You'll need a Windows VM networked in VMWare to exploit some of the examples. 
-
-### What to read
-
+<p>&nbsp;</p>
+## What to read
+<p>&nbsp;</p>
 Google "how to pass OSCP" and read as many blogs as you can, they will all give you references. Save references as bookmarks if you find them useful. 
 
 Save the exploits you use in HTB and document how you used them so you can replicate it during the exam if you need to. 
 
 Your own documentation will be invaluable. 
-
+<p>&nbsp;</p>
 ### Exam
-
+<p>&nbsp;</p>
 Tips:
-
-Eat good food.
-
-Take breaks.
-
-Have a good nights sleep.
-
-Have a doggo keep you company.
-
+<ul>
+<li>Eat good food.</li>
+<li>Take breaks.</li>
+<li>Have a good nights sleep.</li>
+<li>Have a doggo keep you company.</li>
+</ul>
 
 ![moo burrito image](https://cybercodebear.github.io/images/blog/oscp-moo_burrito2.png)
 
@@ -102,13 +97,13 @@ There are 5 exam machines:
 20pts = med machine (pretty easily found open source)
 
 10pts = easy machine (should be obvious single step)
-
+<p>&nbsp;</p>
 ### Report 
-
+<p>&nbsp;</p>
 whoisflynn passed their exam with an updated template. I found it easy to use, check it out on [whoisflynn's github page](https://github.com/whoisflynn/OSCP-Exam-Report-Template)
-
+<p>&nbsp;</p>
 ### Conclusion 
-
+<p>&nbsp;</p>
 So what's the final cost?
 
 HTB VIP membership
