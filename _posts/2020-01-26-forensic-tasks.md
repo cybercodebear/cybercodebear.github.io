@@ -14,11 +14,10 @@ In the future I hope to get some equipment and I will record the scenario as wel
 
 For now I hope the content is helpful.
 
-## Scenarios
+### Scenarios
 <p>&nbsp;</p>
-The following scenarios will have a rating in front of them which I think is reflective of how difficult it should be to complete. This following table is a break down of the ratings.
+The following scenarios will have a rating in front of them which I think is reflective of how difficult it should be to complete. The following is a description of the ratings.
 
-| Rating | Description |
-| ------ | ----------- |
-| Very Easy | The evidence you need is given. The task is well defined. The tools are beginner friendly. |
-| Easy | The evidence you need is given. The task may be well defined. The tools may be beginner friendly. |
+**Very Easy:** The evidence you need is given. The task is well defined. The tools are beginner friendly.
+
+**Easy:** The evidence you need is given. The task may be well defined. The tools may be beginner friendly.
