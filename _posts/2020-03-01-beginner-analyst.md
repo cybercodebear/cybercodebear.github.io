@@ -34,10 +34,12 @@ Where it's applicable I will delineate whether I'm using the [***LINUX-SIFT***](
 <p>&nbsp;</p>
 - [ Things to do ](#things-to-do) 
 - [ Change log ](#change-log)
-- [ General IOCs ](#general-iocs)
-<p>&nbsp;- [Misnamed processes](#misnamed-processes)</p>
-<p>&nbsp;- [Remote processes in memory](#remote-processes-in-memory)</p>
-<p>&nbsp;- [PowerShell download cradle](#ps-download-cradle)</p>
+
+<p>[ General IOCs ](#general-iocs)<br />
+  - [Misnamed processes](#misnamed-processes)</p>
+  
+  - [Remote processes in memory](#remote-processes-in-memory)
+  - [PowerShell download cradle](#ps-download-cradle)
 - [Domain controller ntdsutil](#dc-ntdsutil)
   - [Proxy logs](#proxy-logs)
   - [Folder/file creation](#folderfile-creation)
