@@ -31,15 +31,10 @@ Below the task files section is the solution along with my own thought process f
 Download the files by clicking on the icon below;
 <p>&nbsp;</p>
 [![button](https://cybercodebear.github.io/images/blog/inaprop_content/vm-icon-png-icon.jpg)](https://cybercodebear.github.io/images/blog/downloads/Prove-an-employee-viewed-inappropriate-content.7z)
-
-## Solution 
 <p>&nbsp;</p>
-### Video 
+### Solution: Video
 <p>&nbsp;</p>
-I have now created a video that will step through,
-1. How to create the VM's to make this task. 
-2. How to acquire the data that was downloaded in the zip.
-3. How to do the task.
+I have now created a video that will step through how to, create the VM's to make this task; acquire the data that was downloaded in the zip; do the task.
 <p>&nbsp;</p>
 [![Alt text](http://i3.ytimg.com/vi/0oLy34oPzw0/maxresdefault.jpg)](https://youtu.be/0oLy34oPzw0)
 
