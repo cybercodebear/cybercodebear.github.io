@@ -5,7 +5,7 @@ tagline: Single Page
 date: 2020-03-01 15:40
 categories: [Playbook]
 tags: [Playbook, forensics, incident response]
-image: rick-morty.png
+image: rick-morty.jpg
 ---
 
 [Back to main page.](https://cybercodebear.github.io/)
