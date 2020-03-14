@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Analyst Playbook"
-tagline: Single Page
+tagline: CTRL+F-able
 date: 2020-03-01 15:40
 categories: [Playbook]
 tags: [Playbook, forensics, incident response]
