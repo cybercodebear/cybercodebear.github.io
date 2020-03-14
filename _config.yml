@@ -64,11 +64,6 @@ header-focus-button:
   title: Blog
   url: https://cybercodebear.github.io/blog.html
 
-# Secondary Buttons
-#header-secondary-button:
-#  title: Blog
-#  url: https://cybercodebear.github.io/blog.html
-
 #
 # This is your email adress, contact from send here all emails from contact section
 # IMPORTANT: you can modify contact form from this static template, but now works contact form works with a free external server
@@ -125,8 +120,8 @@ about-description: The first programming course I ever completed my instructor a
 #####################################
 ##########  Core Features  ##########
 #####################################
-core-title: Core Attributes
-core-description: Currently open to opportunities within cyber security. Below is a highlight reel of myself.
+core-title: Personal Attributes
+core-description: Currently open to opportunities within cyber security. Below is a small portion of what I can offer.
 
 #
 # Core Features Left
