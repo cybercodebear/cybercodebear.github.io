@@ -35,10 +35,14 @@ Where it's applicable I will delineate whether I'm using the [***LINUX-SIFT***](
 - [ Things to do ](#things-to-do) 
 - [ Change log ](#change-log)
 - [ General IOCs ](#general-iocs)
+
 &nbsp;  - [Misnamed processes](#misnamed-processes)
+
 &nbsp;  - [Remote processes in memory](#remote-processes-in-memory)
+
 &nbsp;  - [PowerShell download cradle](#ps-download-cradle)
-  - [Domain controller ntdsutil](#dc-ntdsutil)
+
+- [Domain controller ntdsutil](#dc-ntdsutil)
   - [Proxy logs](#proxy-logs)
   - [Folder/file creation](#folderfile-creation)
 - [General information](#gen-win-info)
