@@ -32,7 +32,7 @@ Download the files by clicking on the icon below;
 <p>&nbsp;</p>
 [![button](https://cybercodebear.github.io/images/blog/inaprop_content/vm-icon-png-icon.jpg)](https://cybercodebear.github.io/images/blog/downloads/Prove-an-employee-viewed-inappropriate-content.7z)
 <p>&nbsp;</p>
-### Solution: Video
+## Solution: Video
 <p>&nbsp;</p>
 I have now created a video that will step through how to, create the VM's to make this task; acquire the data that was downloaded in the zip; do the task.
 <p>&nbsp;</p>
