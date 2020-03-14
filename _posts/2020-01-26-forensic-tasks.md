@@ -16,8 +16,7 @@ For now I hope the content is helpful.
 
 ## Scenarios
 <p>&nbsp;</p>
-The following scenarios will have a rating in front of them which I think is reflective of how difficult it should be to complete. The following is a description of the ratings.
-
+The blog posts in the category *Tasks* will have a rating in their tags which I think is reflective of how difficult it should be to complete. The following is a description of the ratings.
 
 **Very Easy:** The evidence you need is given. The task is well defined. The tools are beginner friendly.
 
