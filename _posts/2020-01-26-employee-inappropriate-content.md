@@ -8,8 +8,6 @@ tags: [Very Easy, tasks, tools, forensics]
 image: noporn.jpg
 ---
 
-# Prove an employee accessed inappropriate content.
-<p>&nbsp;</p>
 ## Scenario
 <p>&nbsp;</p> 
 The company you work for supplies employees with a laptop to take away for work so that they can VPN back into the company servers. Everytime an employee loans a laptop from the IT they must sign an appropriate use form which states the laptop can only be used for work purposes. 
