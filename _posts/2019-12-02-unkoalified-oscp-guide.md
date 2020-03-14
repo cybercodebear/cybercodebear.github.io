@@ -18,11 +18,13 @@ I'm going to recommend you pay for a few things but they will be cheaper that pa
 
 Hopefully you'll find this blog post short and helpful so let's get into it.
 
-# My Background
+## My Background
+
 
 When I first started I had no background in pentesting. What I had done was maybe three of the **easy** hack the box machines. 
 
-# Tools you'll need
+## Tools you'll need
+
 
 Something to run your virtual machine. I use [VMWare Workstation Pro](https://www.vmware.com/au/products/workstation-pro.html), I paid for this license because I use it for work as well. If you're going to keep doing stuff like this then I think it's a good investment if you just want to try it OSCP out then use [VMWare Player](https://www.vmware.com/au/products/workstation-player/workstation-player-evaluation.html) which will do the same thing but it's free.
 
@@ -40,7 +42,8 @@ Once it's installed there are a few key tools in Kali that I used all the time:
 
 **nmapautomator** - The enumeration tool I use for HTB and all of the exam machines. The user 21y4d created the tool to use during their OSCP exam, check it out [here](https://github.com/21y4d/nmapAutomator).
 
-# What to study
+## What to study
+
 
 These suggestions are somewhat in order.
 
