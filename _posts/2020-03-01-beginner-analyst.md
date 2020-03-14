@@ -34,8 +34,8 @@ Where it's applicable I will delineate whether I'm using the [***LINUX-SIFT***](
 <p>&nbsp;</p>
 - [ Things to do ](#things-to-do) 
 - [ Change log ](#change-log)
-
-### [ General IOCs ](#general-iocs)
+&nbsp; 
+#### [ **GENERAL IOC** ](#general-iocs)
 - [Misnamed processes](#misnamed-processes)
 - [Remote processes in memory](#remote-processes-in-memory)
 - [PowerShell download cradle](#ps-download-cradle)
