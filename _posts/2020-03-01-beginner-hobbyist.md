@@ -8,7 +8,7 @@ tags: [Very Easy, tasks, tools]
 image: n00b.jpg
 ---
 
-I recently got asked by a colleague to help deliver an induction week brief. I received this brief when I first staretd and thought it was the best thing ever. 
+I recently got asked by a colleague to help deliver an induction week brief. I received this brief when I first started and thought it was the best thing ever. 
 
 The purpose the brief to take an audience that may know nothing to knowing something about both IT and cyber security. 
 
