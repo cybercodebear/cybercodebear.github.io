@@ -22,7 +22,7 @@ I'd also like to note that before this point my linux forensics experience was v
 <p>&nbsp;</p>
 ## Scenario
 <p>&nbsp;</p>
-You're SOC has left a USB with a sticky note on it.
+Your SOC has left a USB with a sticky note on it.
 
 > We have received a report of an IP owned by your company 192.168.32.128 has been communicating with malicious IP 192.168.32.129.
 <p>&nbsp;</p>
@@ -60,7 +60,7 @@ The vmem file is a virual memory file that can be obtained when you suspend a vi
 
 The System map file will help us create the profile to use with volatility. 
 
-The first step is to determine what kind of Linux system were working with since the system admin that we got it from has gone to Hawaii for 2 two weeks will the place burns down around us. 
+The first step is to determine what kind of Linux system we're working with since the system admin that we got it from has gone to Hawaii for two weeks while the place burns down around us. 
 
 Linux memory files are rich with information since it is mostly text based so let's `grep` for Linux.
 <p>&nbsp;</p>
@@ -86,11 +86,11 @@ Hmm hardy looks good, maybe another google search.
 <p>&nbsp;</p>
 ![Hardy Ubuntu](https://cybercodebear.github.io/images/blog/easy-linux-forensics/hardyubuntu.png)
 <p>&nbsp;</p>
-Now the above search isn't fulproof so let me show you what else you could search for. 
+Now the above search isn't foolproof so let me show you what else you could search for. 
 <p>&nbsp;</p>
 ![Other codenames](https://cybercodebear.github.io/images/blog/easy-linux-forensics/othercodenames.png)
 <p>&nbsp;</p>
-These two searches did give something but there are also some other you could try that aren't in this particular memory image; `VERSION=` and `PRETTY_NAME=`.
+These two searches did give something but there are also some other searches you could try that aren't in this particular memory image; `VERSION=` and `PRETTY_NAME=`.
 
 Note this may change between Linux releases so it's important to do your research and see how each type will update that kernel which can lead you down the correct path. 
 
@@ -102,7 +102,7 @@ The numbers are what we need to select a profile from the Volatility Foundation 
 
 Go ahead and download the `Ubuntu8044.zip` and store it in our working directory. 
 
-Now we need some back ground on how profile are normally created, go and read this [page](https://github.com/volatilityfoundation/volatility/wiki/Linux).
+Now we need some background on how profile are normally created, go and read this [page](https://github.com/volatilityfoundation/volatility/wiki/Linux).
 
 It boils down to the fact you need to zip up a System map and module.dwarf file and store it somewhere. However, we already have a System map file that was given as a resource so let's use that.
 
