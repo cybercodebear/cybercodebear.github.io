@@ -12,34 +12,34 @@ image: diskcryptor.png
 <p>&nbsp;</p>
 Here is a quick list of resources that I downloaded for this:
 
-- [VMWare Workstation](https://www.vmware.com/au/products/workstation-pro/workstation-pro-evaluation.html), it'll ask you for a key but you can just used the trial version.  
+(1.) [VMWare Workstation](https://www.vmware.com/au/products/workstation-pro/workstation-pro-evaluation.html), it'll ask you for a key but you can just used the trial version.  
 
-- [Windows 10 VM](https://developer.microsoft.com/en-us/windows/downloads/virtual-machines/), grab the one for VMWare.
+(2.) [Windows 10 VM](https://developer.microsoft.com/en-us/windows/downloads/virtual-machines/), grab the one for VMWare.
 
-- [DiskCryptor v1.1](https://github.com/DavidXanatos/DiskCryptor/releases), you want to grab the stable release which is under the BETA versions.
+(3.) [DiskCryptor v1.1](https://github.com/DavidXanatos/DiskCryptor/releases), you want to grab the stable release which is under the BETA versions.
 
-- [diskcryptor2john Python script](https://raw.githubusercontent.com/openwall/john/a02c068c245e43cdab24e412213562cd461638ba/run/diskcryptor2john.py), save this to a text file. 
+(4.) [diskcryptor2john Python script](https://raw.githubusercontent.com/openwall/john/a02c068c245e43cdab24e412213562cd461638ba/run/diskcryptor2john.py), save this to a text file. 
 
-- [System Rescue iso](https://www.system-rescue.org/Download/), I got the i868 version.
+(5.) [System Rescue iso](https://www.system-rescue.org/Download/), I got the i868 version.
 
-- [HashCat](https://hashcat.net/hashcat/), program for password cracking.
+(6.) [HashCat](https://hashcat.net/hashcat/), program for password cracking.
 
 <p>&nbsp;</p>
 ## Other resources I used
 <p>&nbsp;</p>
 Here are the other blogs that I used.
 
-- How to enable the bios boot in a VM check it out [here](https://kb.vmware.com/s/article/1004129). The command you want to add to the VM's ```.vmx``` is ```Add bios.forceSetupOnce = "TRUE"```.
+(1.) How to enable the bios boot in a VM check it out [here](https://kb.vmware.com/s/article/1004129). The command you want to add to the VM's <b>.vmx</b> is <b>Add bios.forceSetupOnce = "TRUE"</b>.
 
-- To enable a shared file between the host and VM check this [blog](https://pureinfotech.com/setup-network-file-sharing-windows-10/).
+(2.) To enable a shared file between the host and VM check this [blog](https://pureinfotech.com/setup-network-file-sharing-windows-10/).
 
-- How to use HashCat quick guide created [LaconicWolf](https://laconicwolf.com/2018/09/29/hashcat-tutorial-the-basics-of-cracking-passwords-with-hashcat/).
+(3.) How to use HashCat quick guide created [LaconicWolf](https://laconicwolf.com/2018/09/29/hashcat-tutorial-the-basics-of-cracking-passwords-with-hashcat/).
 
-- [HashCat hash types](https://hashcat.net/wiki/doku.php?id=example_hashes), this is how I identified the `-m` option.
+(4.) [HashCat hash types](https://hashcat.net/wiki/doku.php?id=example_hashes), this is how I identified the `-m` option.
 
-- [Password cracking time estimation](https://www.betterbuys.com/estimating-password-cracking-times/), pretty basic but proves a point.
+(5.) [Password cracking time estimation](https://www.betterbuys.com/estimating-password-cracking-times/), pretty basic but proves a point.
 
-- [ACSC mitigations for ransomware](https://www.cyber.gov.au/acsc/view-all-content/threats/ransomware), great resource for anyone to read over. 
+(6.) [ACSC mitigations for ransomware](https://www.cyber.gov.au/acsc/view-all-content/threats/ransomware), great resource for anyone to read over. 
 
 <p>&nbsp;</p>
 ## Command line help
