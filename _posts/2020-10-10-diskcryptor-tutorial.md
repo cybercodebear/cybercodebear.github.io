@@ -24,11 +24,6 @@ Here is a quick list of resources that I downloaded for this:
 
 (6.) [HashCat](https://hashcat.net/hashcat/), program for password cracking.
 
-Download - 
-How to use blog - 
-hash types - 
-Password testing - 
-
 <p>&nbsp;</p>
 ## Other resources I used
 <p>&nbsp;</p>
@@ -59,7 +54,7 @@ To mount the shared network drive once it's set up run;
 
 `mkdir shared`
 
-`/usr/bin/mount -t cifs //<YOUR HOSTNAME>/Downloads /mnt/shared
+`/usr/bin/mount -t cifs //<YOUR HOSTNAME>/Downloads /mnt/shared`
 
 Then to copy the Python script across;
 
