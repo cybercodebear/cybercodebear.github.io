@@ -10,7 +10,7 @@ image: diskcryptor.png
 
 ## Things to download
 <p>&nbsp;</p>
-Here is a quick list of resources that I downloaded for this:
+Here is a quick list of resources that I downloaded for the tutorial:
 
 (1.) [VMWare Workstation](https://www.vmware.com/au/products/workstation-pro/workstation-pro-evaluation.html), it'll ask you for a key but you can just used the trial version.  
 
@@ -18,7 +18,7 @@ Here is a quick list of resources that I downloaded for this:
 
 (3.) [DiskCryptor v1.1](https://github.com/DavidXanatos/DiskCryptor/releases), you want to grab the stable release which is under the BETA versions.
 
-(4.) [diskcryptor2john Python script](https://raw.githubusercontent.com/openwall/john/a02c068c245e43cdab24e412213562cd461638ba/run/diskcryptor2john.py), save this to a text file. 
+(4.) [diskcryptor2john Python script](https://raw.githubusercontent.com/openwall/john/a02c068c245e43cdab24e412213562cd461638ba/run/diskcryptor2john.py), save this to a text file called <b>diskcryptor2john.py</b>.
 
 (5.) [System Rescue iso](https://www.system-rescue.org/Download/), I got the i868 version.
 
@@ -33,7 +33,7 @@ Here are the other blogs that I used.
 
 (2.) To enable a shared file between the host and VM check this [blog](https://pureinfotech.com/setup-network-file-sharing-windows-10/).
 
-(3.) How to use HashCat quick guide created [LaconicWolf](https://laconicwolf.com/2018/09/29/hashcat-tutorial-the-basics-of-cracking-passwords-with-hashcat/).
+(3.) How to use HashCat in a quick guide created by [LaconicWolf](https://laconicwolf.com/2018/09/29/hashcat-tutorial-the-basics-of-cracking-passwords-with-hashcat/).
 
 (4.) [HashCat hash types](https://hashcat.net/wiki/doku.php?id=example_hashes), this is how I identified the <b>-m</b> option.
 
