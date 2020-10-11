@@ -73,6 +73,6 @@ If the password is cracked it will show in the console.
 <p>&nbsp;</p>
 ## Explanation
 <p>&nbsp;</p>
-This task took me a while to figure out so I'm not going to explain it here. If you know enough the commands should be enoughotherwise you'll just have to watch me fumble around in the video.
+This task took me a while to figure out so I'm not going to explain it here. If you know enough the commands should be enough. Otherwise you will just have to watch me fumble around in the video.
 
 [![](https://img.youtube.com/vi/Vey-ll3LM3o/maxresdefault.jpg)](https://youtu.be/Vey-ll3LM3o)
