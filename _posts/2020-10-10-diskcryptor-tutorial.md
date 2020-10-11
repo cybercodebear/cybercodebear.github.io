@@ -35,7 +35,7 @@ Here are the other blogs that I used.
 
 (3.) How to use HashCat quick guide created [LaconicWolf](https://laconicwolf.com/2018/09/29/hashcat-tutorial-the-basics-of-cracking-passwords-with-hashcat/).
 
-(4.) [HashCat hash types](https://hashcat.net/wiki/doku.php?id=example_hashes), this is how I identified the `-m` option.
+(4.) [HashCat hash types](https://hashcat.net/wiki/doku.php?id=example_hashes), this is how I identified the <b>-m</b> option.
 
 (5.) [Password cracking time estimation](https://www.betterbuys.com/estimating-password-cracking-times/), pretty basic but proves a point.
 
@@ -46,27 +46,27 @@ Here are the other blogs that I used.
 <p>&nbsp;</p> 
 Within the system rescue iso to view the drives run;
 
-`fsarchiver probe simple`
+<b>fsarchiver probe simple</b>
 
 To mount the shared network drive once it's set up run;
 
-`cd /mnt`
+<b>cd /mnt</b>
 
-`mkdir shared`
+<b>mkdir shared</b>
 
-`/usr/bin/mount -t cifs //<YOUR HOSTNAME>/Downloads /mnt/shared`
+<b>/usr/bin/mount -t cifs //<YOUR HOSTNAME>/Downloads /mnt/shared</b>
 
 Then to copy the Python script across;
 
-`cp shared/diskcryptor2john.py /usr/bin/`
+<b>cp shared/diskcryptor2john.py /usr/bin/</b>
 
-Find the drive you want to run the script against from `fsarchiver` and then run;
+Find the drive you want to run the script against from <b>fsarchiver</b> and then run;
 
-`/usr/bin/diskcryptor2john.py /dev/sda1 >> shared/dcrypt-hashes.txt`
+<b>/usr/bin/diskcryptor2john.py /dev/sda1 >> shared/dcrypt-hashes.txt</b>
 
 Then open a command line in Windows in the directory of HashCat executable and run;
 
-`hashcat.exe -a 0 -m 20011 C:\<your path to the hashes>\dcrypt-hashes.txt example.dict -O`
+<b>hashcat.exe -a 0 -m 20011 C:\<your path to the hashes>\dcrypt-hashes.txt example.dict -O</b>
 
 If the password is cracked it will show in the console.
 
