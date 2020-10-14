@@ -54,7 +54,7 @@ To mount the shared network drive once it's set up run;
 
 <b>mkdir shared</b>
 
-<b>/usr/bin/mount -t cifs //<YOUR HOSTNAME>/Downloads /mnt/shared</b>
+<b>/usr/bin/mount -t cifs //[YOUR HOSTNAME]/Downloads /mnt/shared</b>
 
 Then to copy the Python script across;
 
